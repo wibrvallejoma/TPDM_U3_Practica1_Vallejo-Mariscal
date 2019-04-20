@@ -1,15 +1,19 @@
 package com.example.tpdm_u3_practica1_vallejo;
 
 public class Cliente {
-    String nombre, domicilio, sucursal;
-    int antiguedad;
-    public void Cliente(){
+     String domicilio, nombre, sucursal;
+     String matricula;
+
+    public Cliente(){
 
     }
-    public void Cliente(String nombre, String domicilio, String sucursal, int antiguedad){
+    public Cliente(String matricula, String nombre, String domicilio, String sucursal){
+        this.matricula = matricula;
+
         this.nombre = nombre;
         this.domicilio = domicilio;
         this.sucursal = sucursal;
-        this.antiguedad = antiguedad;
+
     }
+
 }

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".ClientesActivity">
 
     <TextView
@@ -16,6 +17,52 @@
         android:textColor="#030303"
         />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matricula"
+        android:id="@+id/clienteMatricula"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:id="@+id/clienteNombre"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Domicilio"
+        android:id="@+id/clienteDomicilio"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sucursal"
+        android:id="@+id/clienteSucursal"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar/Actualizar"
+        android:id="@+id/clienteInsertar"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:id="@+id/clienteEliminar"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar"
+        android:id="@+id/clienteConsultar"
+        />
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
